@@ -11,18 +11,24 @@ body {
 }
 
 #content {
+    position: relative;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+    animation-name: fadeBottom;
+    animation-duration: 1s;
 }
 
 #top {
+    position: relative;
     margin: 12px;
     padding: 12px; 
     font-family: 'Open Sans', sans-serif;
     font-size: 2em;
     color: #F9CA7F;
+    animation-name: fadeRight;
+    animation-duration: 1s;
 }
 
 textarea {

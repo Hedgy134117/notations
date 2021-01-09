@@ -1,0 +1,9 @@
+@keyframes fadeBottom {
+    0% { opacity: 0%; top: 200px; }
+    100% { opacity: 100%; top: 0px; }
+}
+
+@keyframes fadeRight {
+    0% { opacity: 0%; right: 100px; }
+    100% { opacity: 100%; right: 0px; }
+}
